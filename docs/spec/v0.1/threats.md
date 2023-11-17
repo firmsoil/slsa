@@ -86,6 +86,11 @@ Many recent high-profile attacks were consequences of supply-chain integrity vul
 <td><a href="https://blog.sonatype.com/damaging-linux-mac-malware-bundled-within-browserify-npm-brandjack-attempt">Browserify typosquatting</a>: Attacker uploaded a malicious package with a similar name as the original.
 <td>SLSA does not directly address this threat, but provenance linking back to source control can enable and enhance other solutions.
 </table>
+<td>I
+<td>Use unapproved package source
+<td>Attacker introduces package(s) from unapproved source repositories
+<td>SLSA does not directly address this threat.
+</table>
 
 <table>
 <thead>
